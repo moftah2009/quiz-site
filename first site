@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>الامتحان</h1>
+        
+        <form id="quizForm">
+            <!-- Question 1 -->
+            <div class="question">
+                <p>1. A company is...</p>
+                <label>
+                    <input type="radio" name="q1" value="a noun"> a noun
+                </label>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question">
+                <p>2. He ... speak Arabic.</p>
+                <label>
+                    <input type="radio" name="q2" value="doesn't"> doesn't
+                </label>
+            </div>
+
+            <!-- Add more questions here -->
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
